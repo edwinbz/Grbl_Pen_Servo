@@ -44,8 +44,8 @@ The other end is 0.002 sec (0.002 / 0.000064 = 31 ticks)
 
 // these are full travel values. If you want to move less than full travel adjust these values
 // If your servo is going the wrong way, swap them.
-#define PEN_SERVO_DOWN     31      
-#define PEN_SERVO_UP       16        
+#define PEN_SERVO_DOWN     16      
+#define PEN_SERVO_UP       31        
  
 #define SERVO_PWM_DDR	  DDRB
   #define SPINDLE_PWM_PORT  PORTB
